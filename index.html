@@ -15,10 +15,17 @@
 </head>
 <body>
     <div class="ui secondary pointing top stackable fixed menu" style="background-color: white;">
-        <a href="#" class="disabled item ui small header">NICK MALLORY</a>
-        <a href="#projects" class="item">Projects</a>
-        <a href="#about" class="item">About Me</a>
-        <a href="#contact" class="item">Contact</a>
+        <div id="navbar">
+            <div href="#" id="navbar-header">NICK MALLORY</div>        
+            <div class="mobile-only" id="hamburger">
+                <i class="large sidebar icon"></i>
+            </div>
+        </div>
+        
+        <a href="#projects" class="navbar-items item">Projects</a>
+        <a href="#about" class="navbar-items item">About Me</a>
+        <a href="#contact" class="navbar-items item">Contact</a>      
+        
     </div>
 
     <div id="main-container" class="ui container">
@@ -240,7 +247,7 @@
                         I have been playing games for as long as I can remember. As I grew older my obsession moved from not just playing games, but to programming them too. Ever since then I just want to make people feel the same joy I get from playing games through developing them.
                     </p>
                     <p>
-                        My other obsession would definitely be web development. This very website is an example of something I have have so much fun creating. I find it incredibly rewarding to design a website and see it come to life with content. In college I learned about it, but it wasn't until afterwards that I came to truly appreciate it.
+                        My other obsession would definitely be web development. This very website is an example of something I have so much fun creating. I find it incredibly rewarding to design a website and see it come to life with content. In college I learned about it, but it wasn't until afterwards that I came to truly appreciate it.
                     </p>                   
                 </div>
             </div>                
@@ -331,7 +338,34 @@
 
     $(".ui.card .image").dimmer({
         on: "hover"
-    });    
+    });
+
+    $("#hamburger").on('click', showNavBar);
+        
+   
+    function showNavBar(){
+       // $(".navbar-items").show();
+        $(".navbar-items").slideToggle();
+    }
+
+    function checkWindowSize(){
+        if(window.innerWidth < 768){
+            $(".mobile-only").show();
+            $(".navbar-items").hide();
+        } else {
+            $(".mobile-only").hide();
+            $(".navbar-items").show();
+        }
+    }
+
+    window.onresize = checkWindowSize;
+
+    $(document).ready(function(){
+        checkWindowSize();
+    });
+
+
+
 
     window.addEventListener("hashchange", function(){
         scrollBy(0, -70);
