@@ -20,12 +20,10 @@
             <div class="mobile-only" id="hamburger">
                 <i class="large sidebar icon"></i>
             </div>
-        </div>
-        
+        </div>        
         <a href="#projects" class="navbar-items item">Projects</a>
         <a href="#about" class="navbar-items item">About Me</a>
         <a href="#contact" class="navbar-items item">Contact</a>      
-        
     </div>
 
     <div id="main-container" class="ui container">
@@ -332,20 +330,26 @@
     $("#modal-ar").modal('attach events', '.btn-modal-ar', 'show');
     $("#modal-recession").modal('attach events', '.btn-modal-recession', 'show');
     $("#modal-zk").modal('attach events', '.btn-modal-zk', 'show');
-    $("#modal-engine").modal('attach events', '.btn-modal-engine', 'show');
-
-    
+    $("#modal-engine").modal('attach events', '.btn-modal-engine', 'show');    
 
     $(".ui.card .image").dimmer({
         on: "hover"
     });
 
-    $("#hamburger").on('click', showNavBar);
-        
+    $("#main-container").on('click', hideNavBar);     
+    $(".item").on('click', hideNavBar);  
+    $("#hamburger").on('click', toggleNavBar);
    
-    function showNavBar(){
-       // $(".navbar-items").show();
+    function toggleNavBar(){
+        if(window.innerWidth > 768)
+            return false;
         $(".navbar-items").slideToggle();
+    }
+
+    function hideNavBar(){
+        if(window.innerWidth > 768)
+            return false;
+        $(".navbar-items").slideUp();
     }
 
     function checkWindowSize(){
@@ -363,9 +367,6 @@
     $(document).ready(function(){
         checkWindowSize();
     });
-
-
-
 
     window.addEventListener("hashchange", function(){
         scrollBy(0, -70);
