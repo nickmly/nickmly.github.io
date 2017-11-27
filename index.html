@@ -337,19 +337,17 @@
     });
 
     $("#main-container").on('click', hideNavBar);     
-    $(".item").on('click', hideNavBar);  
+    $(".item").on('click', hideNavBar);
     $("#hamburger").on('click', toggleNavBar);
    
     function toggleNavBar(){
-        if(window.innerWidth > 768)
-            return false;
-        $(".navbar-items").slideToggle();
+        if(window.innerWidth < 768)            
+            $(".navbar-items").slideToggle();
     }
 
     function hideNavBar(){
-        if(window.innerWidth > 768)
-            return false;
-        $(".navbar-items").slideUp();
+        if(window.innerWidth < 768)            
+            $(".navbar-items").slideUp();
     }
 
     function checkWindowSize(){
