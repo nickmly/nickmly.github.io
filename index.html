@@ -231,7 +231,7 @@
         <!-- ABOUT -->
         <h1 id="about">About Me</h1>
         <div class="ui divider"></div>
-        
+        <a href="files/Resume-NickMallory.pdf" class="ui button fluid">Download Resume</a>
         <div class="ui fluid card">
             <div class="content">
                 <div class="header">
@@ -301,20 +301,20 @@
         <!-- CONTACT FORM -->
         <h1 id="contact">Contact</h1>
         <div class="ui divider"></div>
-        <div class="ui form">
+        <form class="ui form" action="http://www.superstronggames.com/portfolio/send_email.php" method="POST">
             <div class="ui field">
-                <input type="text" placeholder="Name">
+                <input type="text" name="name" placeholder="Name" required>
             </div>
             <div class="ui field">
-                <input type="email" placeholder="Email">
+                <input type="email" name="email" placeholder="Email" required>
             </div>
             <div class="ui field">
-                <textarea name="content" id="" cols="30" rows="10" placeholder="Enter your message here"></textarea>
+                <textarea name="message" id="" cols="30" rows="10" placeholder="Enter your message here" required></textarea>
             </div>
             <div class="ui field">
                 <button class="ui right floated button">Submit</button>
             </div>
-        </div>
+        </form>
     </div>
 </body>
 <script>

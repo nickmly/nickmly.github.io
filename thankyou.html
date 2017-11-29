@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+    <script src="semantic/dist/semantic.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Nick Mallory Portfolio</title>
+</head>
+<body>
+    <div class="ui secondary pointing top stackable fixed menu" style="background-color: white;">
+        <div id="navbar">
+            <div href="#" id="navbar-header">NICK MALLORY</div>        
+            <div class="mobile-only" id="hamburger">
+                <i class="large sidebar icon"></i>
+            </div>
+        </div>        
+        <a href="index.html#projects" class="navbar-items item">Projects</a>
+        <a href="index.html#about" class="navbar-items item">About Me</a>
+        <a href="index.html#contact" class="navbar-items item">Contact</a>      
+    </div>
+
+    <div id="main-container" class="ui container">
+        <h1>Thank you for your message. I will get back to you as soon as possible.</h1>
+        <a href="index.html" class="ui button">Go Back</a>
+    </div>
+</body>
+<script>
+    $(".ui .item").on("click", function(){
+        if($(this).hasClass("disabled")) {
+            return false;
+        }        
+        $(".ui .item").removeClass("active");
+        $(this).addClass("active");   
+            
+    });
+
+    $("#modal-ar").modal('attach events', '.btn-modal-ar', 'show');
+    $("#modal-recession").modal('attach events', '.btn-modal-recession', 'show');
+    $("#modal-zk").modal('attach events', '.btn-modal-zk', 'show');
+    $("#modal-engine").modal('attach events', '.btn-modal-engine', 'show');    
+
+    $(".ui.card .image").dimmer({
+        on: "hover"
+    });
+
+    $("#main-container").on('click', hideNavBar);     
+    $(".item").on('click', hideNavBar);
+    $("#hamburger").on('click', toggleNavBar);
+   
+    function toggleNavBar(){
+        if(window.innerWidth < 768)            
+            $(".navbar-items").slideToggle();
+    }
+
+    function hideNavBar(){
+        if(window.innerWidth < 768)            
+            $(".navbar-items").slideUp();
+    }
+
+    function checkWindowSize(){
+        if(window.innerWidth < 768){
+            $(".mobile-only").show();
+            $(".navbar-items").hide();
+        } else {
+            $(".mobile-only").hide();
+            $(".navbar-items").show();
+        }
+    }
+
+    window.onresize = checkWindowSize;
+
+    $(document).ready(function(){
+        checkWindowSize();
+    });
+
+    window.addEventListener("hashchange", function(){
+        scrollBy(0, -70);
+    });
+
+   
+</script>
+</html>
