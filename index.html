@@ -128,6 +128,32 @@
                 <div class="extra content">
                     <a class="ui small button primary" href="https://github.com/nickmly/game-engine">Visit GitHub Page</a>"
                 </div>  
+            </div>
+            <div class="ui card">
+                <div class="dimmable image">
+                    <div class="ui dimmer">
+                        <div class="content">
+                        <div class="center">
+                            <div class="ui button btn-modal-social">More Info</div>
+                        </div>
+                        </div>
+                    </div>
+                    <img src="images/social_1.png">
+                </div>               
+                <div class="content">
+                    <a class="header btn-modal-social">Social Media Website</a>
+                    <div class="meta">
+                        Self
+                    </div>
+                    <div class="description">
+                        I created a social media website in order to learn how they work. The site uses NodeJS and Semantic UI. I mixed a little bit of Reddit and Facebook together to make a cool looking site that
+                        has support for GIFs, pictures, videos, and text posts. The site also allows for comments on posts, and it sorts posts based on likes.
+                    </div>
+                </div>
+                <div class="extra content">
+                    <a class="ui small button primary" href="https://serene-springs-47576.herokuapp.com/">Visit Site</a>"
+                    <a class="ui small button primary" href="https://github.com/nickmly/social-media">Visit GitHub Page</a>"
+                </div>  
             </div>    
         </div>
         <!-- MODALS -->
@@ -221,6 +247,25 @@
                 <div class="image">
                     <img class="ui fluid image" src="images/engine_3.png">
                 </div>                
+            </div>
+            
+            <div class="description">
+            
+            </div>                      
+        </div>
+
+        <div class="ui modal" id="modal-social">
+            <i class="close icon"></i>
+            <div class="header">
+                Social Media Website Screenshots
+            </div>
+            <div class="modal-container">
+                <div class="image">
+                    <img class="ui fluid image" src="images/social_1.png">
+                </div>           
+                <div class="image">
+                    <img class="ui fluid image" src="images/social_2.png">
+                </div>
             </div>
             
             <div class="description">
@@ -331,6 +376,7 @@
     $("#modal-recession").modal('attach events', '.btn-modal-recession', 'show');
     $("#modal-zk").modal('attach events', '.btn-modal-zk', 'show');
     $("#modal-engine").modal('attach events', '.btn-modal-engine', 'show');    
+    $("#modal-social").modal('attach events', '.btn-modal-social', 'show');    
 
     $(".ui.card .image").dimmer({
         on: "hover"
