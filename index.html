@@ -154,7 +154,31 @@
                     <a class="ui small button primary" href="https://serene-springs-47576.herokuapp.com/">Visit Site</a>
                     <a class="ui small button primary" href="https://github.com/nickmly/social-media">Visit GitHub Page</a>
                 </div>  
-            </div>    
+            </div>
+            <div class="ui card">
+                <div class="dimmable image">
+                    <div class="ui dimmer">
+                        <div class="content">
+                        <div class="center">
+                            <div class="ui button btn-modal-tojam">More Info</div>
+                        </div>
+                        </div>
+                    </div>
+                    <img src="images/tojam_1.png">
+                </div>               
+                <div class="content">
+                    <a class="header btn-modal-tojam">Worms Clone Game</a>
+                    <div class="meta">
+                        For TOJam 2017
+                    </div>
+                    <div class="description">
+                        In a group of four people, we created a Worms Clone for TOJam 2017 in Unity. It has 3 playable characters and multiple abilites per character.
+                    </div>
+                </div>
+                <div class="extra content">
+                    <a class="ui small button primary" href="https://github.com/nickmly/TOjam17">Visit GitHub Page</a>
+                </div>  
+            </div>     
         </div>
         <!-- MODALS -->
         <div class="ui modal" id="modal-ar">
@@ -273,6 +297,22 @@
             </div>                      
         </div>
 
+        <div class="ui modal" id="modal-tojam">
+            <i class="close icon"></i>
+            <div class="header">
+                TOJam 2017 Screenshots
+            </div>
+            <div class="modal-container">
+                <div class="image">
+                    <img class="ui fluid image" src="images/tojam_1.png">
+                </div>     
+            </div>
+            
+            <div class="description">
+            
+            </div>                      
+        </div>
+
         <!-- ABOUT -->
         <h1 id="about">About Me</h1>
         <div class="ui divider"></div>
@@ -377,6 +417,7 @@
     $("#modal-zk").modal('attach events', '.btn-modal-zk', 'show');
     $("#modal-engine").modal('attach events', '.btn-modal-engine', 'show');    
     $("#modal-social").modal('attach events', '.btn-modal-social', 'show');    
+    $("#modal-tojam").modal('attach events', '.btn-modal-tojam', 'show');    
 
     $(".ui.card .image").dimmer({
         on: "hover"
