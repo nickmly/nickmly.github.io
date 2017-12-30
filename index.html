@@ -160,6 +160,31 @@
                     <div class="ui dimmer">
                         <div class="content">
                         <div class="center">
+                            <div class="ui button btn-modal-cms">More Info</div>
+                        </div>
+                        </div>
+                    </div>
+                    <img src="images/cms_1.png">
+                </div>               
+                <div class="content">
+                    <a class="header btn-modal-cms">PHP Blog</a>
+                    <div class="meta">
+                        Self
+                    </div>
+                    <div class="description">
+                        I created a PHP Blog website to showcase my skills in PHP and MySQL. The site uses Bootstrap 4 for styling.
+                    </div>
+                </div>
+                <div class="extra content">
+                    <a class="ui small button primary" href="http://superstronggames.com/cms/">Visit Site</a>
+                    <a class="ui small button primary" href="https://github.com/nickmly/php-cms">Visit GitHub Page</a>
+                </div>  
+            </div>
+            <div class="ui card">
+                <div class="dimmable image">
+                    <div class="ui dimmer">
+                        <div class="content">
+                        <div class="center">
                             <div class="ui button btn-modal-tojam">More Info</div>
                         </div>
                         </div>
@@ -297,6 +322,25 @@
             </div>                      
         </div>
 
+        <div class="ui modal" id="modal-cms">
+            <i class="close icon"></i>
+            <div class="header">
+                PHP Blog Website Screenshots
+            </div>
+            <div class="modal-container">
+                <div class="image">
+                    <img class="ui fluid image" src="images/cms_1.png">
+                </div>           
+                <div class="image">
+                    <img class="ui fluid image" src="images/cms_2.png">
+                </div>
+            </div>
+            
+            <div class="description">
+            
+            </div>                      
+        </div>
+
         <div class="ui modal" id="modal-tojam">
             <i class="close icon"></i>
             <div class="header">
@@ -418,6 +462,8 @@
     $("#modal-engine").modal('attach events', '.btn-modal-engine', 'show');    
     $("#modal-social").modal('attach events', '.btn-modal-social', 'show');    
     $("#modal-tojam").modal('attach events', '.btn-modal-tojam', 'show');    
+    $("#modal-cms").modal('attach events', '.btn-modal-cms', 'show');    
+
 
     $(".ui.card .image").dimmer({
         on: "hover"
