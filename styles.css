@@ -7,6 +7,10 @@
     padding: 20px;
 }
 
+.image img {
+    max-height: 310px;
+}
+
 #navbar-header {
     color: gray;
     padding: 10px 4px;
