@@ -85,6 +85,31 @@
                     <div class="ui dimmer">
                         <div class="content">
                         <div class="center">
+                            <div class="ui button btn-modal-react">More Info</div>
+                        </div>
+                        </div>
+                    </div>
+                    <img src="images/react_1.png">
+                </div>               
+                <div class="content">
+                    <a class="header btn-modal-react">React/NodeJS TodoList</a>
+                    <div class="meta">
+                        Self
+                    </div>
+                    <div class="description">
+                        I made a React app with a NodeJS backend to demonstrate my knowledge in React. This full-stack app is a todo list that anybody can access and modify. It uses MongoDB as a database.
+                    </div>
+                </div>
+                <div class="extra content">
+                    <a class="ui small button primary" href="https://react-todo-app457.herokuapp.com/">Visit Site</a>
+                    <a class="ui small button primary" href="https://github.com/nickmly/react-todo-app">Visit GitHub Page</a>
+                </div>  
+            </div>
+            <div class="ui card">
+                <div class="dimmable image">
+                    <div class="ui dimmer">
+                        <div class="content">
+                        <div class="center">
                             <div class="ui button btn-modal-zk">More Info</div>
                         </div>
                         </div>
@@ -278,6 +303,23 @@
             
             <div class="description">
             
+            </div>                      
+        </div>
+
+
+        <div class="ui modal" id="modal-react">
+            <i class="close icon"></i>
+            <div class="header">
+                React/NodeJS TodoList Screenshots
+            </div>
+            <div class="modal-container">
+                <div class="image">
+                    <img class="ui fluid image" src="images/react_1.png">
+                </div>
+            </div>
+            
+            <div class="description">
+                
             </div>                      
         </div>
 
@@ -524,6 +566,7 @@
     $("#modal-tojam").modal('attach events', '.btn-modal-tojam', 'show');    
     $("#modal-cms").modal('attach events', '.btn-modal-cms', 'show');    
     $("#modal-travel").modal('attach events', '.btn-modal-travel', 'show');    
+    $("#modal-react").modal('attach events', '.btn-modal-react', 'show');  
 
     $(".ui.card .image").dimmer({
         on: "hover"
