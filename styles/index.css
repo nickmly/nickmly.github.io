@@ -72,10 +72,12 @@ a:hover {
 .landing-title {
     z-index: 1;
     font-size: 64px;
+    margin: 0 20px;
 }
 
 .landing-desc {
     z-index: 1;
+    margin: 0 20px;
 }
 
 
