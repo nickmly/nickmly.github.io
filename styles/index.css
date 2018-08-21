@@ -59,6 +59,13 @@ a:hover {
     }
 }
 
+@media screen and (min-width: 1920px) {
+    .landing {
+        background-size: cover;
+        background-position-y: 35%;
+    }
+}
+
 .landing-overlay {
     position: absolute;
     width: 100%;
@@ -101,6 +108,13 @@ a:hover {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+}
+
+@media screen and (min-width: 900px) and (max-width: 1920px) {
+    .row {
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    }
 }
 
 .card {
