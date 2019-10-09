@@ -91,6 +91,8 @@ a:hover {
     width: 100%;
     height: auto;
     min-height: 1px;
+    max-width: 512px;
+    margin: 0 auto;
 }
 
 .row {
@@ -135,12 +137,23 @@ a:hover {
     font-size: 14px;
 }
 
+@media screen and (max-width: 900px) {
+    .card {
+        width: 100%;
+    }
+}
+
+.full {
+    width: 100%;
+}
+
 .card-body {
     margin-bottom: 6px;
 }
 
 .card-header {
     font-size: 24px;
+    margin: 0;
 }
 
 .card-subheader {
