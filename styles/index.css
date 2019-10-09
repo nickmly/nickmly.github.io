@@ -1,5 +1,5 @@
 /* 
-#1985a1;
+#0d7a96;
 #4c5c68;
 #46494c;
 #c5c3c6;
@@ -17,7 +17,7 @@ body {
 }
 
 a {
-    color: #1985a1;
+    color: #0d7a96;
     text-decoration: none;
 }
 
@@ -131,7 +131,7 @@ a:hover {
     background-color: #fff;
     width: 512px;
     min-height: 256px;
-    border-top: 4px solid #1985a1;
+    border-top: 4px solid #0d7a96;
     -webkit-box-shadow: 0px 0px 3px 3px #0003;
             box-shadow: 0px 0px 3px 3px #0003;
     font-size: 14px;
@@ -163,7 +163,7 @@ a:hover {
 .card-footer {
     display: flex;
     justify-content: space-between;
-    border-top: 2px solid #1986a17e;
+    border-top: 2px solid #0d7a96;
     margin-top: auto;
 }
 
