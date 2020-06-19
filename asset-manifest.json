@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.dfc63c4b.chunk.css",
-    "main.js": "/static/js/main.856417f6.chunk.js",
-    "main.js.map": "/static/js/main.856417f6.chunk.js.map",
+    "main.js": "/static/js/main.5cd830b3.chunk.js",
+    "main.js.map": "/static/js/main.5cd830b3.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.6e48ae5f.js",
     "runtime-main.js.map": "/static/js/runtime-main.6e48ae5f.js.map",
     "static/css/2.3cadc252.chunk.css": "/static/css/2.3cadc252.chunk.css",
-    "static/js/2.40b54212.chunk.js": "/static/js/2.40b54212.chunk.js",
-    "static/js/2.40b54212.chunk.js.map": "/static/js/2.40b54212.chunk.js.map",
+    "static/js/2.3036aa3e.chunk.js": "/static/js/2.3036aa3e.chunk.js",
+    "static/js/2.3036aa3e.chunk.js.map": "/static/js/2.3036aa3e.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.81484b65fe560dc139b1a2c9de181e07.js": "/precache-manifest.81484b65fe560dc139b1a2c9de181e07.js",
+    "precache-manifest.9030847fe53c78dd49b311f0948d0d39.js": "/precache-manifest.9030847fe53c78dd49b311f0948d0d39.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.3cadc252.chunk.css.map": "/static/css/2.3cadc252.chunk.css.map",
     "static/css/main.dfc63c4b.chunk.css.map": "/static/css/main.dfc63c4b.chunk.css.map",
-    "static/js/2.40b54212.chunk.js.LICENSE.txt": "/static/js/2.40b54212.chunk.js.LICENSE.txt",
+    "static/js/2.3036aa3e.chunk.js.LICENSE.txt": "/static/js/2.3036aa3e.chunk.js.LICENSE.txt",
     "static/media/ar_1.webp": "/static/media/ar_1.7e0bcd0b.webp",
     "static/media/ar_1.jpg": "/static/media/ar_1.8e06d178.jpg",
     "static/media/asp_1.webp": "/static/media/asp_1.0727e764.webp",
@@ -26,6 +26,7 @@
     "static/media/ontario.jpg": "/static/media/ontario.3f1baa0b.jpg",
     "static/media/ontario.webp": "/static/media/ontario.7d8ec136.webp",
     "static/media/profilePic.webp": "/static/media/profilePic.22846f3f.webp",
+    "static/media/profilePic.jpg": "/static/media/profilePic.2b451c37.jpg",
     "static/media/react_1.jpg": "/static/media/react_1.2a304b92.jpg",
     "static/media/react_1.webp": "/static/media/react_1.3fc009a1.webp",
     "static/media/recession_1.jpg": "/static/media/recession_1.060c737c.jpg",
@@ -42,8 +43,8 @@
   "entrypoints": [
     "static/js/runtime-main.6e48ae5f.js",
     "static/css/2.3cadc252.chunk.css",
-    "static/js/2.40b54212.chunk.js",
+    "static/js/2.3036aa3e.chunk.js",
     "static/css/main.dfc63c4b.chunk.css",
-    "static/js/main.856417f6.chunk.js"
+    "static/js/main.5cd830b3.chunk.js"
   ]
 }
