@@ -1,25 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.dfc63c4b.chunk.css",
-    "main.js": "/static/js/main.b8910675.chunk.js",
-    "main.js.map": "/static/js/main.b8910675.chunk.js.map",
+    "main.css": "/static/css/main.57d4a71f.chunk.css",
+    "main.js": "/static/js/main.b8081df6.chunk.js",
+    "main.js.map": "/static/js/main.b8081df6.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.6e48ae5f.js",
     "runtime-main.js.map": "/static/js/runtime-main.6e48ae5f.js.map",
     "static/css/2.3cadc252.chunk.css": "/static/css/2.3cadc252.chunk.css",
-    "static/js/2.064b44ce.chunk.js": "/static/js/2.064b44ce.chunk.js",
-    "static/js/2.064b44ce.chunk.js.map": "/static/js/2.064b44ce.chunk.js.map",
+    "static/js/2.0914c6cc.chunk.js": "/static/js/2.0914c6cc.chunk.js",
+    "static/js/2.0914c6cc.chunk.js.map": "/static/js/2.0914c6cc.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.9fd65893d1344199428d5a84897b1746.js": "/precache-manifest.9fd65893d1344199428d5a84897b1746.js",
+    "precache-manifest.3955f45d554e215bb5ddcbeda787c4c7.js": "/precache-manifest.3955f45d554e215bb5ddcbeda787c4c7.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.3cadc252.chunk.css.map": "/static/css/2.3cadc252.chunk.css.map",
-    "static/css/main.dfc63c4b.chunk.css.map": "/static/css/main.dfc63c4b.chunk.css.map",
-    "static/js/2.064b44ce.chunk.js.LICENSE.txt": "/static/js/2.064b44ce.chunk.js.LICENSE.txt",
+    "static/css/main.57d4a71f.chunk.css.map": "/static/css/main.57d4a71f.chunk.css.map",
+    "static/js/2.0914c6cc.chunk.js.LICENSE.txt": "/static/js/2.0914c6cc.chunk.js.LICENSE.txt",
     "static/media/ar_1.webp": "/static/media/ar_1.7e0bcd0b.webp",
     "static/media/ar_1.jpg": "/static/media/ar_1.8e06d178.jpg",
     "static/media/asp_1.webp": "/static/media/asp_1.0727e764.webp",
     "static/media/asp_1.jpg": "/static/media/asp_1.54ad9c0e.jpg",
     "static/media/covid_alert.webp": "/static/media/covid_alert.2e05b13c.webp",
     "static/media/covid_alert.jpg": "/static/media/covid_alert.f7c8788f.jpg",
+    "static/media/covid_alert_canada.jpg": "/static/media/covid_alert_canada.3e4b2ace.jpg",
+    "static/media/covid_alert_canada.webp": "/static/media/covid_alert_canada.bc4f9932.webp",
     "static/media/humber.webp": "/static/media/humber.30357a8c.webp",
     "static/media/humber.jpg": "/static/media/humber.474dfdfa.jpg",
     "static/media/Header.module.css": "/static/media/landing2.f3f4bdce.jpg",
@@ -45,8 +47,8 @@
   "entrypoints": [
     "static/js/runtime-main.6e48ae5f.js",
     "static/css/2.3cadc252.chunk.css",
-    "static/js/2.064b44ce.chunk.js",
-    "static/css/main.dfc63c4b.chunk.css",
-    "static/js/main.b8910675.chunk.js"
+    "static/js/2.0914c6cc.chunk.js",
+    "static/css/main.57d4a71f.chunk.css",
+    "static/js/main.b8081df6.chunk.js"
   ]
 }
