@@ -9,7 +9,7 @@
 <script setup lang="ts">
 import type { Project } from '~/types/project';
 useHead({
-  title: "Nick Mallory | Work"
+    title: "Nick Mallory | Work"
 })
 const projects = ref<Project[]>([
     {
@@ -17,7 +17,7 @@ const projects = ref<Project[]>([
         imageName: "rivalry-esports-300x200-1.webp",
         href: "https://www.rivalry.com",
         dateRange: "2022 - Present",
-        description: `Currently working at Rivalry as a Senior Developer, using Nuxt 3 and Laravel to create Rivalry.com: 
+        description: `Currently working at Rivalry as a Senior Developer, using Nuxt 3 and TypeScript to create Rivalry.com: 
             a sportsbook and casino web app.`,
         bgColor: "#0A0A0A"
     },
@@ -38,19 +38,11 @@ const projects = ref<Project[]>([
         bgColor: "#FFFFFF"
     },
     {
-        name: "Ontario Digital Service",
-        imageName: "ods.webp",
-        href: "https://www.ontario.ca/",
-        dateRange: "2019 - 2021",
-        description: `I worked as a web developer at the Ontario Digital Service, helping develop and maintain Ontario.ca. Our stack was Drupal 8 and PHP for the back-end and VueJS and AngularJS for the front-end.`,
-        bgColor: "#5BC5C3"
-    },
-    {
         name: "Ontario Public Service",
         imageName: "ontario.webp",
         href: "https://www.ontario.ca/",
-        dateRange: "2018 - 2019",
-        description: `I was a digital intern at the Ontario Public Service. Worked with technologies such as NodeJS and .NET to develop web apps for the cloud. Developed in cloud technologies such as Microsoft Azure and OpenShift. I also worked on a DevOps team helping support a Pivotal Cloud Foundry infrastructure.`,
+        dateRange: "2018 - 2021",
+        description: `I worked as a web developer at the Ontario Digital Service, helping develop and maintain Ontario.ca. Our stack was Drupal 8 and PHP for the back-end and Vue.js and AngularJS for the front-end.`,
         bgColor: "#FFFFFF"
     },
 ])

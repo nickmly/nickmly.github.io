@@ -2,7 +2,8 @@
   <div class="flex flex-col gap-6">
     <h3 class="text-2xl">About Me</h3>
     <div class="about">
-      <p class="mb-2">I am a full-stack web developer currently developing Rivalry.com using Nuxt 3.
+      <p class="mb-2">I am a full-stack web developer currently developing Rivalry.com using Vue.js 3, Nuxt 3, and
+        TypeScript.
         I graduated with honors from Game Programming at Humber College in April 2017.</p>
       <p class="mb-2">Creating excellent user experiences in the cloud is what I do. Let me create your next website.
       </p>
@@ -20,16 +21,18 @@
       <Skill name="HTML" icon-name="akar-icons:html-fill" />
       <Skill name="CSS" icon-name="akar-icons:css-fill" />
       <Skill name="Sass" icon-name="akar-icons:sass-fill" />
+      <Skill name="Tailwind" icon-name="teenyicons:tailwind-outline" />
       <div class="border-b-[1px] border-white w-80" />
       <Skill name="Jest" icon-name="devicon-plain:jest" />
       <Skill name="Cypress" icon-name="simple-icons:cypress" />
       <div class="border-b-[1px] border-white w-80" />
       <Skill name="PHP" icon-name="fa6-brands:php" />
-      <Skill name="Node.JS" icon-name="fa-brands:node" />
+      <Skill name="Node.js" icon-name="fa-brands:node" />
       <div class="border-b-[1px] border-white w-80" />
-      <Skill name="Vue" icon-name="teenyicons:vue-solid" />
-      <Skill name="Nuxt" icon-name="teenyicons:nuxtjs-outline" />
       <Skill name="React" icon-name="teenyicons:react-outline" />
+      <Skill name="Next.js" icon-name="teenyicons:nextjs-outline" />
+      <Skill name="Vue.js" icon-name="teenyicons:vue-solid" />
+      <Skill name="Nuxt.js" icon-name="teenyicons:nuxtjs-outline" />
     </div>
   </div>
 </template>
