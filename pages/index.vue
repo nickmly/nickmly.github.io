@@ -11,7 +11,7 @@
       <p class="mb-2">
         My passions include web development, video games, and fitness. For the past 6 years I have been developing
         and
-        designing websites in both AWS and Azure using Node.js, React, Vue.js, Angular, ASP.NET, and PHP.
+        designing websites in both AWS and Azure using React, Vue.js, Node.js, and PHP.
       </p>
     </div>
     <h3 class="text-2xl">Skills</h3>
