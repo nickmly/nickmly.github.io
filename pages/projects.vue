@@ -9,9 +9,17 @@
 <script setup lang="ts">
 import type { Project } from '~/types/project';
 useHead({
-  title: "Nick Mallory | Projects"
+    title: "Nick Mallory | Projects"
 })
 const projects = ref<Project[]>([
+    {
+        name: "nextFitness",
+        imageName: "fitness-next.webp",
+        href: "https://fitness-next.vercel.app",
+        dateRange: "2024",
+        description: `Developed a full-stack application to log your workouts using Next.js 14, Typescript, Tailwind, Prisma, and PostgreSQL`,
+        bgColor: "#0A0A0A"
+    },
     {
         name: "Exterminate Zombies: Get Paid",
         imageName: "ezgp.webp",
