@@ -13,11 +13,19 @@ useHead({
 })
 const projects = ref<Project[]>([
     {
+        name: "Paramount Commerce",
+        imageName: "paramount-commerce.webp",
+        href: "https://www.paramountcommerce.com/",
+        dateRange: "2024 - Present",
+        description: `Currently working at Paramount Commerce building PayDirectNow, an Interac e-Transfer payment solution for iGaming companies. Using React, React Router, and TypeScript. Deployed to Cloudflare Workers.`,
+        bgColor: "#FFFFFF"
+    },
+    {
         name: "Rivalry.com",
         imageName: "rivalry-esports-300x200-1.webp",
         href: "https://www.rivalry.com",
-        dateRange: "2022 - Present",
-        description: `Currently working at Rivalry as a Senior Developer, using Nuxt 3 and TypeScript to create Rivalry.com: 
+        dateRange: "2022 - 2024",
+        description: `I worked at Rivalry as a Senior Developer. Used Nuxt 3 and TypeScript to create Rivalry.com: 
             a sportsbook and casino web app.`,
         bgColor: "#0A0A0A"
     },
